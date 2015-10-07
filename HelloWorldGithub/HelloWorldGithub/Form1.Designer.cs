@@ -39,6 +39,7 @@
             this.lblHelloWorld.Size = new System.Drawing.Size(62, 13);
             this.lblHelloWorld.TabIndex = 0;
             this.lblHelloWorld.Text = "Hello World";
+            this.lblHelloWorld.Click += new System.EventHandler(this.lblHelloWorld_Click);
             // 
             // frmHelloWorldGithub
             // 
